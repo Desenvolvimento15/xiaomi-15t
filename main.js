@@ -1,7 +1,7 @@
 $(".slick-track").slick({
 arrows:false,
 dots:false,
-slidesToShow: 5,
+slidesToShow: 1,
 slidesToScroll: 1,
 autoplay: true,
 autoplaySpeed: 2000,
