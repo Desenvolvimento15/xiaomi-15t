@@ -1,48 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const track = document.querySelector(".slick-track");
-  const slides = document.querySelectorAll(".slick-slide");
-  const dots = document.querySelectorAll(".focal_wrap");
-  let currentIndex = 0;
-  let autoplayTimer;
-
-  function goToSlide(index) {
-    if (index < 0 || index >= slides.length) return;
-    currentIndex = index;
-
-    // Move o slider
-    track.style.transform = `translateX(${-index * 100}%)`;
-
-    // Atualiza classes e aria-selected nos dots existentes
-    dots.forEach((dot, i) => {
-      dot.classList.toggle("active", i === index);
-      dot.setAttribute("aria-selected", i === index ? "true" : "false");
-    });
-  }
-
-  // Clique nos dots existentes
-  dots.forEach((dot, i) => {
-    dot.addEventListener("click", () => {
-      goToSlide(i);
-      stopAutoplay();
-      setTimeout(startAutoplay, 5000); // retoma autoplay após 5s
-    });
-  });
-
-  function startAutoplay() {
-    clearInterval(autoplayTimer);
-    autoplayTimer = setInterval(() => {
-      goToSlide((currentIndex + 1) % slides.length);
-    }, 2000);
-  }
-
-  function stopAutoplay() {
-    clearInterval(autoplayTimer);
-  }
-
-  // Inicializa
-  track.style.transition = "transform 0.6s ease";
-  goToSlide(0);
-  startAutoplay();
+$(".slick-track").slick({
+  lazyLoad: "ondemand",
+  arrows: false,
+  dots: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
 
 $(".slick-end").slick({
