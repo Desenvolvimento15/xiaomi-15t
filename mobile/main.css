@@ -4,20 +4,10 @@ video{
 
 
 
-html,
-body,
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
 li {
   list-style: none;
 }
-:root {
-  --skeleton-color: #eee;
-}
+
 html > img,
 head > img,
 body > img {
@@ -45,9 +35,7 @@ body > img {
   top: -0.6em;
   left: 0.6em;
 }
-.xm-blur {
-  opacity: 0.3 !important;
-}
+
 .hide {
   display: none !important;
 }
@@ -5672,7 +5660,7 @@ html[dir="rtl"] .lang-popover .lang-popover__arrow:after {
 }
 .div1.fly-birds-page_f983496e26 .div2 .div4 .div6 .split_text8441 {
   color: #050000;
-  width: 14.5833rem;
+  width: 15.5833rem;
   font-size: 1.25rem;
 }
 .div1.fly-birds-page_f983496e26 .div2 .div4 .div7 {
@@ -6532,7 +6520,7 @@ html[dir="rtl"] .lang-popover .lang-popover__arrow:after {
 .div1.fly-birds-page_f983496e26 .div205 .div207 .div208 {
   flex-direction: column;
   align-items: flex-start;
-  width: 12.2708rem;
+  width: 13.2708rem;
   display: flex;
 }
 .div1.fly-birds-page_f983496e26 .div205 .div207 .div208 .split_text8516 {
@@ -7012,7 +7000,7 @@ html[dir="rtl"] .lang-popover .lang-popover__arrow:after {
   background: linear-gradient(-95deg, #96695d, #c7b1ab) 0 0/100% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
-  width: 6.25rem;
+  width: 7.25rem;
   font-size: 1.25rem;
 }
 .div1.fly-birds-page_f983496e26 .div376 .div378 .div380 {
@@ -7327,7 +7315,7 @@ html[dir="rtl"] .lang-popover .lang-popover__arrow:after {
   background: linear-gradient(-95deg, #96695d, #c7b1ab) 0 0/100% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
-  width: 6.25rem;
+  width: 7.25rem;
   font-size: 0.75rem;
 }
 .div1.fly-birds-page_f983496e26 .div418 .div420 .div422 {
@@ -18609,13 +18597,13 @@ html[dir="rtl"] .lang-popover .lang-popover__arrow:after {
   flex-direction: column;
   align-items: flex-start;
   width: 18.9583rem;
-  margin-top: -40.5417rem;
+  margin-top: -41.5417rem;
   display: flex;
 }
 .div75 .lecia .div77 .div78 {
   flex-direction: column;
   align-items: flex-start;
-  width: 11.3542rem;
+  width: 12.3542rem;
   display: flex;
 }
 .div75 .lecia .div77 .div78 .split_text8478 {
